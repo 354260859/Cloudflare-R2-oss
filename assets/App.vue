@@ -230,6 +230,7 @@ export default {
           file.key.split("/").pop().includes(this.search)
         );
       }
+      console.log(files);
       return files;
     },
 
