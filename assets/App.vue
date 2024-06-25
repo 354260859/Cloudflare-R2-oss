@@ -347,7 +347,11 @@ export default {
     },
 
     preview(filePath){
-      window.open(filePath);
+      // window.open(filePath);
+      console.log("test");
+      console.log(filePath);
+      console.log(context.env["PUBURL"]);
+      console.log("test");
     },
 
     async pasteFile() {
